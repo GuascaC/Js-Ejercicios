@@ -1,7 +1,9 @@
 'use strict';
 let atm = 0;
-let merc = 0;
+let mercr = 0;
 atm=prompt("Ingrese las Atmosferas:");
-merc = parseFloat(atm) * 760;
+function mer(atm) {
+    return atm * 760}
+    mercr = mer(atm);
 alert("Atmosferas:"+atm);
-alert("Milimetros de Mercurio:"+merc);
+alert("Milimetros de Mercurio:"+mercr);

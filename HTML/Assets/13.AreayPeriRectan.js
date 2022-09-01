@@ -1,11 +1,17 @@
 'use strict';
 let largo = 0;
 let ancho = 0;
-let area = 0;
-let perimetro = 0;
+let arear = 0;
+let perimetror = 0;
 largo=prompt("Ingrese el largo");
 ancho=prompt("Ingrese el ancho");
-area = parseFloat(largo) * parseFloat(ancho);
-perimetro = parseFloat(largo)*2+parseFloat(ancho)*2;
-console.log(area);
-console.log(perimetro);
+
+function area(largo,ancho) {
+    return largo * ancho}
+function perimetro(largo,ancho) {
+    return largo * 2 + ancho * 2}
+
+    arear=area(largo,ancho);
+    perimetror=perimetro(largo,ancho);
+    alert("Area:"+arear);
+    alert("Perimetro:"+perimetror);

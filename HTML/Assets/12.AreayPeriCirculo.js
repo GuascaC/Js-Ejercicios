@@ -1,9 +1,16 @@
 'use strict';
 let radio = 0;
-let area = 0;
-let perimetro = 0;
-radio=prompt("Ingrese el radio");
-area = Math.PI * Math.pow(radio,2);
-perimetro = 2*Math.PI*parseFloat(radio);
-console.log(area);
-console.log(perimetro);
+let arear = 0;
+let perimetror = 0;
+radio=prompt("Ingrese el radio: ");
+
+function area(radio) {
+    return Math.PI * Math.pow(radio,2)}
+function perimetro(radio) {
+    return 2 * Math.PI * radio}
+
+ arear=area(radio);
+ perimetror=perimetro(radio);
+ alert("Area:"+arear);
+ alert("Perimetro:"+perimetror);
+ console.log(arear);

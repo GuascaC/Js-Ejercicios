@@ -1,13 +1,16 @@
 'use strict';
 let gas = 0;
 let lit = 0;
-let precioLit = 0;
+let precioLitr = 0;
 let precioGas = 0;
 gas=prompt("Ingrese Galones de Gasolina: ");
-lit = gas * 3.785;
-precioLit = lit * 9500;
 precioGas = 2509;
-console.log("Galones: "+gas);
-console.log("Precio por Galon: "+precioGas);
-console.log("Litros: "+lit);
-console.log("Precio a Pagar: "+precioLit);
+lit = gas * 3.785;
+
+function precioLit(lit) {
+     return lit * 9500}
+precioLitr = precioLit(lit);
+alert("Galones: "+gas);
+alert("Precio por Galon: "+precioGas);
+alert("Litros: "+lit);
+alert("Precio a Pagar: "+precioLitr);

@@ -8,5 +8,5 @@ function posNeg(num){
         return alert("Negativo:"+num)}
 }
 let result = 0;
-result = posNeg(parseFloat(num));
+result = posNeg((num));
 

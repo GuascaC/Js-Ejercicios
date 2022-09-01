@@ -12,6 +12,6 @@ function prom(num1, num2, num3, num4) {
     return (parseFloat(num1) + parseFloat(num2) + parseFloat(num3) + parseFloat(num4))/4; 
 };
 let result = 0;
-result = prom(parseFloat(num1), parseFloat(num2), parseFloat(num3), parseFloat(num4));
+result = prom(num1,num2,num3,num4);
 alert(`Las notas son:${num1},${num2},${num3},${num4}.`);
 alert("El promedio es:"+result,".");

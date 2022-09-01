@@ -22,4 +22,4 @@ function mayor(num1,num2,num3) {
     }
 }
 let result = 0;
-result = mayor(parseFloat(num1),parseFloat(num2),parseFloat(num3));
+result = mayor((num1),(num2),(num3));

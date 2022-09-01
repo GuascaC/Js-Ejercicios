@@ -1,7 +1,10 @@
 'use strict';
 let atm = 0;
-let pasc = 0;
+let pascr = 0;
 atm=prompt("Ingrese las Atmosferas:");
-pasc = parseFloat(atm) * 101300;
+function pasc(atm){
+    return atm * 101300;
+}
+pascr=pasc(atm);
 alert("Atmosferas:"+atm);
-alert("Pascales:"+pasc);
+alert("Pascales:"+pascr);

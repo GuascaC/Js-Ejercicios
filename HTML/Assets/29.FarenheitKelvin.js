@@ -1,7 +1,10 @@
 'use strict';
 let fare = 0;
-let kelv = 0;
+let kelvr = 0;
+let kelvv = 0;
 fare=prompt("Ingrese Grados farenheit: ");
-kelv = ((parseFloat(kelv)-32)*5/9)+273.15;
+function kelv(fare){ 
+    return ((fare-32)*5/9)+273.15}
+kelvr = kelv(fare);
 alert("Farenheit:"+fare);
-alert("Kelvin:"+kelv);
+alert("Kelvin:"+kelvr);

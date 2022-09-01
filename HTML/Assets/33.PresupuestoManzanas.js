@@ -1,13 +1,15 @@
 'use strict';
 let cant = 0;
 let appl = 0;
-let total = 0;
+let totalr = 0;
 cant=prompt("Ingrese la Cantidad de Manzanas: ");
 appl=prompt("Ingrese El precio de Manzanas: ");
-total = parseFloat(cant)*parseFloat(appl);
+function total(cant, appl) {
+    return cant * appl}
+totalr = total(cant, appl);
 if (total<=3000){
-    alert("Dentro de Presupuesto: "+total);
+    alert("Dentro de Presupuesto: "+totalr);
 }
 else{
-    alert("Fuera de Presupuesto: "+total);
+    alert("Fuera de Presupuesto: "+totalr);
 }
